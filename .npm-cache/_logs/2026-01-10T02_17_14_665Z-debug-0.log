@@ -1,0 +1,992 @@
+0 verbose cli /Users/lukeedwards/.nvm/versions/node/v20.19.2/bin/node /Users/lukeedwards/.nvm/versions/node/v20.19.2/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.2
+3 silly config load:file:/Users/lukeedwards/.nvm/versions/node/v20.19.2/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/.npmrc
+5 silly config load:file:/Users/lukeedwards/.npmrc
+6 silly config load:file:/Users/lukeedwards/.nvm/versions/node/v20.19.2/etc/npmrc
+7 verbose title npm i
+8 verbose argv "i"
+9 verbose logfile logs-max:10 dir:/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/.npm-cache/_logs/2026-01-10T02_17_14_665Z-
+10 verbose logfile /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/.npm-cache/_logs/2026-01-10T02_17_14_665Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest lucide-react@^0.562.0
+15 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/lucide-react 137ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/lucide-react set size:undefined disposed:false
+18 silly fetch manifest react@19.2.3
+19 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/react 161ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+22 silly placeDep ROOT lucide-react@0.562.0 OK for: nextjs-applicaiton@0.1.0 want: ^0.562.0
+23 silly reify mark retired [
+23 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/axe-core'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/baseline-browser-mapping',
+24 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.bin/baseline-browser-mapping'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/caniuse-lite'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/fdir'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/globals'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/json5',
+28 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.bin/json5'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/micromatch/node_modules/picomatch'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/postcss'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/picomatch'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/typescript-eslint'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/ts-api-utils'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/zod'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@babel/core/node_modules/json5',
+35 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@babel/core/node_modules/.bin/json5'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@eslint/eslintrc/node_modules/globals'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/postcss/node_modules/postcss'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/scope-manager'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/parser'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/tsconfig-utils'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/utils'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/type-utils'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/typescript-estree'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/eslint-plugin'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/project-service'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/visitor-keys'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/types'
+47 silly reify ]
+48 silly reify moves {
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/axe-core': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.axe-core-MG8rWpC5',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/baseline-browser-mapping': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.baseline-browser-mapping-9Ul5EQvJ',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.bin/baseline-browser-mapping': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.bin/.baseline-browser-mapping-WixIS8sQ',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/caniuse-lite': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.caniuse-lite-YD6Me8Wl',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/fdir': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.fdir-jqvFOKqj',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/globals': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.globals-Ay4J4SKA',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/json5': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.json5-B6RtF4af',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.bin/json5': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.bin/.json5-KtiFLNzN',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/micromatch/node_modules/picomatch': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/micromatch/node_modules/.picomatch-kegFLKHP',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/postcss': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.postcss-AT1JwL3g',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/picomatch': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.picomatch-ADireJTM',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/typescript-eslint': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.typescript-eslint-wYOsyquO',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/ts-api-utils': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.ts-api-utils-MdIutaJH',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/zod': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/.zod-2XXdE30b',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@babel/core/node_modules/json5': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@babel/core/node_modules/.json5-0eRJk51L',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@babel/core/node_modules/.bin/json5': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@babel/core/node_modules/.bin/.json5-Ggm35ZDc',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@eslint/eslintrc/node_modules/globals': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@eslint/eslintrc/node_modules/.globals-x90N2zkR',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/postcss/node_modules/postcss': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/postcss/node_modules/.postcss-rKouAZKv',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/scope-manager': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/.scope-manager-c59YSvQT',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/parser': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/.parser-7O6kJhuy',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/tsconfig-utils': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/.tsconfig-utils-tx68yxLm',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/utils': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/.utils-7aCW5q4j',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/type-utils': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/.type-utils-XHKhVfsM',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/typescript-estree': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/.typescript-estree-jlG4ZnnJ',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/eslint-plugin': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/.eslint-plugin-gOE36MIZ',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/project-service': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/.project-service-IRyHvjcW',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/visitor-keys': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/.visitor-keys-r8WtzKYi',
+48 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/types': '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@typescript-eslint/.types-xqJFkuWG'
+48 silly reify }
+49 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-wasm32-wasi
+50 silly reify mark deleted [
+50 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-wasm32-wasi'
+50 silly reify ]
+51 silly audit bulk request {
+51 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+51 silly audit   '@babel/code-frame': [ '7.27.1' ],
+51 silly audit   '@babel/compat-data': [ '7.28.5' ],
+51 silly audit   '@babel/core': [ '7.28.5' ],
+51 silly audit   '@babel/generator': [ '7.28.5' ],
+51 silly audit   '@babel/helper-compilation-targets': [ '7.27.2' ],
+51 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+51 silly audit   '@babel/helper-module-imports': [ '7.27.1' ],
+51 silly audit   '@babel/helper-module-transforms': [ '7.28.3' ],
+51 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+51 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+51 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+51 silly audit   '@babel/helpers': [ '7.28.4' ],
+51 silly audit   '@babel/parser': [ '7.28.5' ],
+51 silly audit   '@babel/template': [ '7.27.2' ],
+51 silly audit   '@babel/traverse': [ '7.28.5' ],
+51 silly audit   '@babel/types': [ '7.28.5' ],
+51 silly audit   '@emnapi/core': [ '1.7.1' ],
+51 silly audit   '@emnapi/runtime': [ '1.7.1' ],
+51 silly audit   '@emnapi/wasi-threads': [ '1.1.0' ],
+51 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+51 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+51 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+51 silly audit   '@eslint/config-array': [ '0.21.1' ],
+51 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+51 silly audit   '@eslint/core': [ '0.17.0' ],
+51 silly audit   '@eslint/eslintrc': [ '3.3.3' ],
+51 silly audit   '@eslint/js': [ '9.39.2' ],
+51 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+51 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+51 silly audit   '@humanfs/core': [ '0.19.1' ],
+51 silly audit   '@humanfs/node': [ '0.16.7' ],
+51 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+51 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+51 silly audit   '@img/colour': [ '1.0.0' ],
+51 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+51 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+51 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+51 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+51 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+51 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+51 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+51 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+51 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+51 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+51 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+51 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+51 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+51 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+51 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+51 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+51 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+51 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+51 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+51 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+51 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+51 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+51 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+51 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+51 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+51 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+51 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+51 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+51 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+51 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+51 silly audit   '@next/env': [ '16.1.1' ],
+51 silly audit   '@next/eslint-plugin-next': [ '16.1.1' ],
+51 silly audit   '@next/swc-darwin-arm64': [ '16.1.1' ],
+51 silly audit   '@next/swc-darwin-x64': [ '16.1.1' ],
+51 silly audit   '@next/swc-linux-arm64-gnu': [ '16.1.1' ],
+51 silly audit   '@next/swc-linux-arm64-musl': [ '16.1.1' ],
+51 silly audit   '@next/swc-linux-x64-gnu': [ '16.1.1' ],
+51 silly audit   '@next/swc-linux-x64-musl': [ '16.1.1' ],
+51 silly audit   '@next/swc-win32-arm64-msvc': [ '16.1.1' ],
+51 silly audit   '@next/swc-win32-x64-msvc': [ '16.1.1' ],
+51 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+51 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+51 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+51 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+51 silly audit   '@rtsao/scc': [ '1.1.0' ],
+51 silly audit   '@swc/helpers': [ '0.5.15' ],
+51 silly audit   '@tailwindcss/node': [ '4.1.18' ],
+51 silly audit   '@tailwindcss/oxide': [ '4.1.18' ],
+51 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.18' ],
+51 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.18' ],
+51 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.18' ],
+51 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.18' ],
+51 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.18' ],
+51 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.18' ],
+51 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.18' ],
+51 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.18' ],
+51 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.18' ],
+51 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.18' ],
+51 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.18' ],
+51 silly audit   '@tailwindcss/postcss': [ '4.1.18' ],
+51 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+51 silly audit   '@types/estree': [ '1.0.8' ],
+51 silly audit   '@types/json-schema': [ '7.0.15' ],
+51 silly audit   '@types/json5': [ '0.0.29' ],
+51 silly audit   '@types/node': [ '20.19.27' ],
+51 silly audit   '@types/react': [ '19.2.7' ],
+51 silly audit   '@types/react-dom': [ '19.2.3' ],
+51 silly audit   '@typescript-eslint/eslint-plugin': [ '8.51.0' ],
+51 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+51 silly audit   '@typescript-eslint/parser': [ '8.51.0' ],
+51 silly audit   '@typescript-eslint/project-service': [ '8.51.0' ],
+51 silly audit   '@typescript-eslint/scope-manager': [ '8.51.0' ],
+51 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.51.0' ],
+51 silly audit   '@typescript-eslint/type-utils': [ '8.51.0' ],
+51 silly audit   '@typescript-eslint/types': [ '8.51.0' ],
+51 silly audit   '@typescript-eslint/typescript-estree': [ '8.51.0' ],
+51 silly audit   'brace-expansion': [ '2.0.2', '1.1.12' ],
+51 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+51 silly audit   semver: [ '7.7.3', '6.3.1' ],
+51 silly audit   '@typescript-eslint/utils': [ '8.51.0' ],
+51 silly audit   '@typescript-eslint/visitor-keys': [ '8.51.0' ],
+51 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+51 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+51 silly audit   acorn: [ '8.15.0' ],
+51 silly audit   'acorn-jsx': [ '5.3.2' ],
+51 silly audit   ajv: [ '6.12.6' ],
+51 silly audit   'ansi-styles': [ '4.3.0' ],
+51 silly audit   argparse: [ '2.0.1' ],
+51 silly audit   'aria-query': [ '5.3.2' ],
+51 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+51 silly audit   'array-includes': [ '3.1.9' ],
+51 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+51 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+51 silly audit   'array.prototype.flat': [ '1.3.3' ],
+51 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+51 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+51 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+51 silly audit   'ast-types-flow': [ '0.0.8' ],
+51 silly audit   'async-function': [ '1.0.0' ],
+51 silly audit   'available-typed-arrays': [ '1.0.7' ],
+51 silly audit   'axe-core': [ '4.11.0' ],
+51 silly audit   'axobject-query': [ '4.1.0' ],
+51 silly audit   'balanced-match': [ '1.0.2' ],
+51 silly audit   'baseline-browser-mapping': [ '2.9.11' ],
+51 silly audit   braces: [ '3.0.3' ],
+51 silly audit   browserslist: [ '4.28.1' ],
+51 silly audit   'call-bind': [ '1.0.8' ],
+51 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+51 silly audit   'call-bound': [ '1.0.4' ],
+51 silly audit   callsites: [ '3.1.0' ],
+51 silly audit   'caniuse-lite': [ '1.0.30001762' ],
+51 silly audit   chalk: [ '4.1.2' ],
+51 silly audit   'client-only': [ '0.0.1' ],
+51 silly audit   'color-convert': [ '2.0.1' ],
+51 silly audit   'color-name': [ '1.1.4' ],
+51 silly audit   'concat-map': [ '0.0.1' ],
+51 silly audit   'convert-source-map': [ '2.0.0' ],
+51 silly audit   'cross-spawn': [ '7.0.6' ],
+51 silly audit   csstype: [ '3.2.3' ],
+51 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+51 silly audit   'data-view-buffer': [ '1.0.2' ],
+51 silly audit   'data-view-byte-length': [ '1.0.2' ],
+51 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+51 silly audit   debug: [ '4.4.3', '3.2.7' ],
+51 silly audit   'deep-is': [ '0.1.4' ],
+51 silly audit   'define-data-property': [ '1.1.4' ],
+51 silly audit   'define-properties': [ '1.2.1' ],
+51 silly audit   'detect-libc': [ '2.1.2' ],
+51 silly audit   doctrine: [ '2.1.0' ],
+51 silly audit   'dunder-proto': [ '1.0.1' ],
+51 silly audit   'electron-to-chromium': [ '1.5.267' ],
+51 silly audit   'emoji-regex': [ '9.2.2' ],
+51 silly audit   'enhanced-resolve': [ '5.18.4' ],
+51 silly audit   'es-abstract': [ '1.24.1' ],
+51 silly audit   'es-define-property': [ '1.0.1' ],
+51 silly audit   'es-errors': [ '1.3.0' ],
+51 silly audit   'es-iterator-helpers': [ '1.2.2' ],
+51 silly audit   'es-object-atoms': [ '1.1.1' ],
+51 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+51 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+51 silly audit   'es-to-primitive': [ '1.3.0' ],
+51 silly audit   escalade: [ '3.2.0' ],
+51 silly audit   'escape-string-regexp': [ '4.0.0' ],
+51 silly audit   eslint: [ '9.39.2' ],
+51 silly audit   'eslint-config-next': [ '16.1.1' ],
+51 silly audit   globals: [ '16.4.0', '14.0.0' ],
+51 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+51 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+51 silly audit   'eslint-module-utils': [ '2.12.1' ],
+51 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+51 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+51 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+51 silly audit   'eslint-plugin-react-hooks': [ '7.0.1' ],
+51 silly audit   resolve: [ '2.0.0-next.5', '1.22.11' ],
+51 silly audit   'eslint-scope': [ '8.4.0' ],
+51 silly audit   espree: [ '10.4.0' ],
+51 silly audit   esquery: [ '1.7.0' ],
+51 silly audit   esrecurse: [ '4.3.0' ],
+51 silly audit   estraverse: [ '5.3.0' ],
+51 silly audit   esutils: [ '2.0.3' ],
+51 silly audit   'fast-deep-equal': [ '3.1.3' ],
+51 silly audit   'fast-glob': [ '3.3.1' ],
+51 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+51 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+51 silly audit   'fast-levenshtein': [ '2.0.6' ],
+51 silly audit   fastq: [ '1.20.1' ],
+51 silly audit   'file-entry-cache': [ '8.0.0' ],
+51 silly audit   'fill-range': [ '7.1.1' ],
+51 silly audit   'find-up': [ '5.0.0' ],
+51 silly audit   'flat-cache': [ '4.0.1' ],
+51 silly audit   flatted: [ '3.3.3' ],
+51 silly audit   'for-each': [ '0.3.5' ],
+51 silly audit   'function-bind': [ '1.1.2' ],
+51 silly audit   'function.prototype.name': [ '1.1.8' ],
+51 silly audit   'functions-have-names': [ '1.2.3' ],
+51 silly audit   'generator-function': [ '2.0.1' ],
+51 silly audit   gensync: [ '1.0.0-beta.2' ],
+51 silly audit   'get-intrinsic': [ '1.3.0' ],
+51 silly audit   'get-proto': [ '1.0.1' ],
+51 silly audit   'get-symbol-description': [ '1.1.0' ],
+51 silly audit   'get-tsconfig': [ '4.13.0' ],
+51 silly audit   globalthis: [ '1.0.4' ],
+51 silly audit   gopd: [ '1.2.0' ],
+51 silly audit   'graceful-fs': [ '4.2.11' ],
+51 silly audit   'has-bigints': [ '1.1.0' ],
+51 silly audit   'has-flag': [ '4.0.0' ],
+51 silly audit   'has-property-descriptors': [ '1.0.2' ],
+51 silly audit   'has-proto': [ '1.2.0' ],
+51 silly audit   'has-symbols': [ '1.1.0' ],
+51 silly audit   'has-tostringtag': [ '1.0.2' ],
+51 silly audit   hasown: [ '2.0.2' ],
+51 silly audit   'hermes-estree': [ '0.25.1' ],
+51 silly audit   'hermes-parser': [ '0.25.1' ],
+51 silly audit   'import-fresh': [ '3.3.1' ],
+51 silly audit   imurmurhash: [ '0.1.4' ],
+51 silly audit   'internal-slot': [ '1.1.0' ],
+51 silly audit   'is-array-buffer': [ '3.0.5' ],
+51 silly audit   'is-async-function': [ '2.1.1' ],
+51 silly audit   'is-bigint': [ '1.1.0' ],
+51 silly audit   'is-boolean-object': [ '1.2.2' ],
+51 silly audit   'is-bun-module': [ '2.0.0' ],
+51 silly audit   'is-callable': [ '1.2.7' ],
+51 silly audit   'is-core-module': [ '2.16.1' ],
+51 silly audit   'is-data-view': [ '1.0.2' ],
+51 silly audit   'is-date-object': [ '1.1.0' ],
+51 silly audit   'is-extglob': [ '2.1.1' ],
+51 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+51 silly audit   'is-generator-function': [ '1.1.2' ],
+51 silly audit   'is-glob': [ '4.0.3' ],
+51 silly audit   'is-map': [ '2.0.3' ],
+51 silly audit   'is-negative-zero': [ '2.0.3' ],
+51 silly audit   'is-number': [ '7.0.0' ],
+51 silly audit   'is-number-object': [ '1.1.1' ],
+51 silly audit   'is-regex': [ '1.2.1' ],
+51 silly audit   'is-set': [ '2.0.3' ],
+51 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+51 silly audit   'is-string': [ '1.1.1' ],
+51 silly audit   'is-symbol': [ '1.1.1' ],
+51 silly audit   'is-typed-array': [ '1.1.15' ],
+51 silly audit   'is-weakmap': [ '2.0.2' ],
+51 silly audit   'is-weakref': [ '1.1.1' ],
+51 silly audit   'is-weakset': [ '2.0.4' ],
+51 silly audit   isarray: [ '2.0.5' ],
+51 silly audit   isexe: [ '2.0.0' ],
+51 silly audit   'iterator.prototype': [ '1.1.5' ],
+51 silly audit   jiti: [ '2.6.1' ],
+51 silly audit   'js-tokens': [ '4.0.0' ],
+51 silly audit   'js-yaml': [ '4.1.1' ],
+51 silly audit   jsesc: [ '3.1.0' ],
+51 silly audit   'json-buffer': [ '3.0.1' ],
+51 silly audit   'json-schema-traverse': [ '0.4.1' ],
+51 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+51 silly audit   json5: [ '2.2.3', '1.0.2' ],
+51 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+51 silly audit   keyv: [ '4.5.4' ],
+51 silly audit   'language-subtag-registry': [ '0.3.23' ],
+51 silly audit   'language-tags': [ '1.0.9' ],
+51 silly audit   levn: [ '0.4.1' ],
+51 silly audit   lightningcss: [ '1.30.2' ],
+51 silly audit   'lightningcss-android-arm64': [ '1.30.2' ],
+51 silly audit   'lightningcss-darwin-arm64': [ '1.30.2' ],
+51 silly audit   'lightningcss-darwin-x64': [ '1.30.2' ],
+51 silly audit   'lightningcss-freebsd-x64': [ '1.30.2' ],
+51 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.2' ],
+51 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.2' ],
+51 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.2' ],
+51 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.2' ],
+51 silly audit   'lightningcss-linux-x64-musl': [ '1.30.2' ],
+51 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.2' ],
+51 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.2' ],
+51 silly audit   'locate-path': [ '6.0.0' ],
+51 silly audit   'lodash.merge': [ '4.6.2' ],
+51 silly audit   'loose-envify': [ '1.4.0' ],
+51 silly audit   'lru-cache': [ '5.1.1' ],
+51 silly audit   'magic-string': [ '0.30.21' ],
+51 silly audit   'math-intrinsics': [ '1.1.0' ],
+51 silly audit   merge2: [ '1.4.1' ],
+51 silly audit   micromatch: [ '4.0.8' ],
+51 silly audit   minimist: [ '1.2.8' ],
+51 silly audit   ms: [ '2.1.3' ],
+51 silly audit   nanoid: [ '3.3.11' ],
+51 silly audit   'napi-postinstall': [ '0.3.4' ],
+51 silly audit   'natural-compare': [ '1.4.0' ],
+51 silly audit   next: [ '16.1.1' ],
+51 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+51 silly audit   'node-releases': [ '2.0.27' ],
+51 silly audit   'object-assign': [ '4.1.1' ],
+51 silly audit   'object-inspect': [ '1.13.4' ],
+51 silly audit   'object-keys': [ '1.1.1' ],
+51 silly audit   'object.assign': [ '4.1.7' ],
+51 silly audit   'object.entries': [ '1.1.9' ],
+51 silly audit   'object.fromentries': [ '2.0.8' ],
+51 silly audit   'object.groupby': [ '1.0.3' ],
+51 silly audit   'object.values': [ '1.2.1' ],
+51 silly audit   optionator: [ '0.9.4' ],
+51 silly audit   'own-keys': [ '1.0.1' ],
+51 silly audit   'p-limit': [ '3.1.0' ],
+51 silly audit   'p-locate': [ '5.0.0' ],
+51 silly audit   'parent-module': [ '1.0.1' ],
+51 silly audit   'path-exists': [ '4.0.0' ],
+51 silly audit   'path-key': [ '3.1.1' ],
+51 silly audit   'path-parse': [ '1.0.7' ],
+51 silly audit   picocolors: [ '1.1.1' ],
+51 silly audit   picomatch: [ '2.3.1', '4.0.3' ],
+51 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+51 silly audit   'prelude-ls': [ '1.2.1' ],
+51 silly audit   'prop-types': [ '15.8.1' ],
+51 silly audit   punycode: [ '2.3.1' ],
+51 silly audit   'queue-microtask': [ '1.2.3' ],
+51 silly audit   react: [ '19.2.3' ],
+51 silly audit   'react-dom': [ '19.2.3' ],
+51 silly audit   'react-is': [ '16.13.1' ],
+51 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+51 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+51 silly audit   'resolve-from': [ '4.0.0' ],
+51 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+51 silly audit   reusify: [ '1.1.0' ],
+51 silly audit   'run-parallel': [ '1.2.0' ],
+51 silly audit   'safe-array-concat': [ '1.1.3' ],
+51 silly audit   'safe-push-apply': [ '1.0.0' ],
+51 silly audit   'safe-regex-test': [ '1.1.0' ],
+51 silly audit   scheduler: [ '0.27.0' ],
+51 silly audit   'set-function-length': [ '1.2.2' ],
+51 silly audit   'set-function-name': [ '2.0.2' ],
+51 silly audit   'set-proto': [ '1.0.0' ],
+51 silly audit   sharp: [ '0.34.5' ],
+51 silly audit   'shebang-command': [ '2.0.0' ],
+51 silly audit   'shebang-regex': [ '3.0.0' ],
+51 silly audit   'side-channel': [ '1.1.0' ],
+51 silly audit   'side-channel-list': [ '1.0.0' ],
+51 silly audit   'side-channel-map': [ '1.0.1' ],
+51 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+51 silly audit   'source-map-js': [ '1.2.1' ],
+51 silly audit   'stable-hash': [ '0.0.5' ],
+51 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+51 silly audit   'string.prototype.includes': [ '2.0.1' ],
+51 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+51 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+51 silly audit   'string.prototype.trim': [ '1.2.10' ],
+51 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+51 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+51 silly audit   'strip-bom': [ '3.0.0' ],
+51 silly audit   'strip-json-comments': [ '3.1.1' ],
+51 silly audit   'styled-jsx': [ '5.1.6' ],
+51 silly audit   'supports-color': [ '7.2.0' ],
+51 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+51 silly audit   tailwindcss: [ '4.1.18' ],
+51 silly audit   tapable: [ '2.3.0' ],
+51 silly audit   tinyglobby: [ '0.2.15' ],
+51 silly audit   fdir: [ '6.5.0' ],
+51 silly audit   'to-regex-range': [ '5.0.1' ],
+51 silly audit   'ts-api-utils': [ '2.3.0' ],
+51 silly audit   'tsconfig-paths': [ '3.15.0' ],
+51 silly audit   tslib: [ '2.8.1' ],
+51 silly audit   'type-check': [ '0.4.0' ],
+51 silly audit   'typed-array-buffer': [ '1.0.3' ],
+51 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+51 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+51 silly audit   'typed-array-length': [ '1.0.7' ],
+51 silly audit   typescript: [ '5.9.3' ],
+51 silly audit   'typescript-eslint': [ '8.51.0' ],
+51 silly audit   'unbox-primitive': [ '1.1.0' ],
+51 silly audit   'undici-types': [ '6.21.0' ],
+51 silly audit   'unrs-resolver': [ '1.11.1' ],
+51 silly audit   'update-browserslist-db': [ '1.2.3' ],
+51 silly audit   'uri-js': [ '4.4.1' ],
+51 silly audit   which: [ '2.0.2' ],
+51 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+51 silly audit   'which-builtin-type': [ '1.2.1' ],
+51 silly audit   'which-collection': [ '1.0.2' ],
+51 silly audit   'which-typed-array': [ '1.1.19' ],
+51 silly audit   'word-wrap': [ '1.2.5' ],
+51 silly audit   yallist: [ '3.1.1' ],
+51 silly audit   'yocto-queue': [ '0.1.0' ],
+51 silly audit   zod: [ '4.3.4' ],
+51 silly audit   'zod-validation-error': [ '4.0.2' ],
+51 silly audit   'lucide-react': [ '0.562.0' ],
+51 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.18' ]
+51 silly audit }
+52 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-win32-x64-msvc
+53 silly reify mark deleted [
+53 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-win32-x64-msvc'
+53 silly reify ]
+54 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-win32-arm64-msvc
+55 silly reify mark deleted [
+55 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-win32-arm64-msvc'
+55 silly reify ]
+56 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-linux-x64-musl
+57 silly reify mark deleted [
+57 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-linux-x64-musl'
+57 silly reify ]
+58 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-linux-x64-gnu
+59 silly reify mark deleted [
+59 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-linux-x64-gnu'
+59 silly reify ]
+60 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-linux-arm64-musl
+61 silly reify mark deleted [
+61 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-linux-arm64-musl'
+61 silly reify ]
+62 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-linux-arm64-gnu
+63 silly reify mark deleted [
+63 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-linux-arm64-gnu'
+63 silly reify ]
+64 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-linux-arm-gnueabihf
+65 silly reify mark deleted [
+65 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-linux-arm-gnueabihf'
+65 silly reify ]
+66 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-freebsd-x64
+67 silly reify mark deleted [
+67 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-freebsd-x64'
+67 silly reify ]
+68 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-darwin-x64
+69 silly reify mark deleted [
+69 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-darwin-x64'
+69 silly reify ]
+70 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-android-arm64
+71 silly reify mark deleted [
+71 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/lightningcss-android-arm64'
+71 silly reify ]
+72 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-win32-x64-msvc
+73 silly reify mark deleted [
+73 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+73 silly reify ]
+74 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+75 silly reify mark deleted [
+75 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+75 silly reify ]
+76 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+77 silly reify mark deleted [
+77 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+77 silly reify ]
+78 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-wasm32-wasi
+79 silly reify mark deleted [
+79 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-wasm32-wasi'
+79 silly reify ]
+80 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-x64-musl
+81 silly reify mark deleted [
+81 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-x64-musl'
+81 silly reify ]
+82 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-x64-gnu
+83 silly reify mark deleted [
+83 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+83 silly reify ]
+84 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+85 silly reify mark deleted [
+85 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+85 silly reify ]
+86 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+87 silly reify mark deleted [
+87 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+87 silly reify ]
+88 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+89 silly reify mark deleted [
+89 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+89 silly reify ]
+90 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+91 silly reify mark deleted [
+91 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+91 silly reify ]
+92 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-arm64-musl
+93 silly reify mark deleted [
+93 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+93 silly reify ]
+94 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+95 silly reify mark deleted [
+95 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+95 silly reify ]
+96 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+97 silly reify mark deleted [
+97 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+97 silly reify ]
+98 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+99 silly reify mark deleted [
+99 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+99 silly reify ]
+100 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-freebsd-x64
+101 silly reify mark deleted [
+101 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-freebsd-x64'
+101 silly reify ]
+102 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-darwin-x64
+103 silly reify mark deleted [
+103 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-darwin-x64'
+103 silly reify ]
+104 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-android-arm64
+105 silly reify mark deleted [
+105 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-android-arm64'
+105 silly reify ]
+106 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-android-arm-eabi
+107 silly reify mark deleted [
+107 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@unrs/resolver-binding-android-arm-eabi'
+107 silly reify ]
+108 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-win32-x64-msvc
+109 silly reify mark deleted [
+109 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+109 silly reify ]
+110 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-win32-arm64-msvc
+111 silly reify mark deleted [
+111 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+111 silly reify ]
+112 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-linux-x64-musl
+113 silly reify mark deleted [
+113 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-linux-x64-musl'
+113 silly reify ]
+114 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-linux-x64-gnu
+115 silly reify mark deleted [
+115 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-linux-x64-gnu'
+115 silly reify ]
+116 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-linux-arm64-musl
+117 silly reify mark deleted [
+117 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+117 silly reify ]
+118 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-linux-arm64-gnu
+119 silly reify mark deleted [
+119 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+119 silly reify ]
+120 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+121 silly reify mark deleted [
+121 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+121 silly reify ]
+122 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-freebsd-x64
+123 silly reify mark deleted [
+123 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-freebsd-x64'
+123 silly reify ]
+124 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-darwin-x64
+125 silly reify mark deleted [
+125 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-darwin-x64'
+125 silly reify ]
+126 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-android-arm64
+127 silly reify mark deleted [
+127 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@tailwindcss/oxide-android-arm64'
+127 silly reify ]
+128 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-win32-x64-msvc
+129 silly reify mark deleted [
+129 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-win32-x64-msvc'
+129 silly reify ]
+130 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-win32-arm64-msvc
+131 silly reify mark deleted [
+131 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-win32-arm64-msvc'
+131 silly reify ]
+132 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-linux-x64-musl
+133 silly reify mark deleted [
+133 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-linux-x64-musl'
+133 silly reify ]
+134 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-linux-x64-gnu
+135 silly reify mark deleted [
+135 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-linux-x64-gnu'
+135 silly reify ]
+136 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-linux-arm64-musl
+137 silly reify mark deleted [
+137 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-linux-arm64-musl'
+137 silly reify ]
+138 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-linux-arm64-gnu
+139 silly reify mark deleted [
+139 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-linux-arm64-gnu'
+139 silly reify ]
+140 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-darwin-x64
+141 silly reify mark deleted [
+141 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@next/swc-darwin-x64'
+141 silly reify ]
+142 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-win32-x64
+143 silly reify mark deleted [
+143 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-win32-x64'
+143 silly reify ]
+144 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-win32-ia32
+145 silly reify mark deleted [
+145 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-win32-ia32'
+145 silly reify ]
+146 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-win32-arm64
+147 silly reify mark deleted [
+147 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-win32-arm64'
+147 silly reify ]
+148 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-wasm32
+149 silly reify mark deleted [
+149 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-wasm32'
+149 silly reify ]
+150 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linuxmusl-x64
+151 silly reify mark deleted [
+151 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linuxmusl-x64'
+151 silly reify ]
+152 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linuxmusl-arm64
+153 silly reify mark deleted [
+153 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linuxmusl-arm64'
+153 silly reify ]
+154 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linux-x64
+155 silly reify mark deleted [
+155 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linux-x64'
+155 silly reify ]
+156 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linux-s390x
+157 silly reify mark deleted [
+157 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linux-s390x'
+157 silly reify ]
+158 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linux-riscv64
+159 silly reify mark deleted [
+159 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linux-riscv64'
+159 silly reify ]
+160 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linux-ppc64
+161 silly reify mark deleted [
+161 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linux-ppc64'
+161 silly reify ]
+162 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linux-arm64
+163 silly reify mark deleted [
+163 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linux-arm64'
+163 silly reify ]
+164 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linux-arm
+165 silly reify mark deleted [
+165 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-linux-arm'
+165 silly reify ]
+166 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linuxmusl-x64
+167 silly reify mark deleted [
+167 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linuxmusl-x64'
+167 silly reify ]
+168 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linuxmusl-arm64
+169 silly reify mark deleted [
+169 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+169 silly reify ]
+170 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linux-x64
+171 silly reify mark deleted [
+171 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linux-x64'
+171 silly reify ]
+172 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linux-s390x
+173 silly reify mark deleted [
+173 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linux-s390x'
+173 silly reify ]
+174 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linux-riscv64
+175 silly reify mark deleted [
+175 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linux-riscv64'
+175 silly reify ]
+176 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linux-ppc64
+177 silly reify mark deleted [
+177 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linux-ppc64'
+177 silly reify ]
+178 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linux-arm64
+179 silly reify mark deleted [
+179 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linux-arm64'
+179 silly reify ]
+180 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linux-arm
+181 silly reify mark deleted [
+181 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-linux-arm'
+181 silly reify ]
+182 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-darwin-x64
+183 silly reify mark deleted [
+183 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-libvips-darwin-x64'
+183 silly reify ]
+184 verbose reify failed optional dependency /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-darwin-x64
+185 silly reify mark deleted [
+185 silly reify   '/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/node_modules/@img/sharp-darwin-x64'
+185 silly reify ]
+186 silly tarball no local data for @emnapi/wasi-threads@https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.1.0.tgz. Extracting by manifest.
+187 silly tarball no local data for @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.12.tgz. Extracting by manifest.
+188 silly tarball no local data for @emnapi/core@https://registry.npmjs.org/@emnapi/core/-/core-1.7.1.tgz. Extracting by manifest.
+189 silly tarball no local data for @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.1.tgz. Extracting by manifest.
+190 silly tarball no local data for @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.7.1.tgz. Extracting by manifest.
+191 silly tarball no local data for @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-8.51.0.tgz. Extracting by manifest.
+192 silly tarball no local data for @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.51.0.tgz. Extracting by manifest.
+193 silly tarball no local data for @typescript-eslint/project-service@https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.51.0.tgz. Extracting by manifest.
+194 silly tarball no local data for @typescript-eslint/type-utils@https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-8.51.0.tgz. Extracting by manifest.
+195 silly tarball no local data for @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.51.0.tgz. Extracting by manifest.
+196 silly tarball no local data for @typescript-eslint/utils@https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.51.0.tgz. Extracting by manifest.
+197 silly tarball no local data for @typescript-eslint/eslint-plugin@https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.51.0.tgz. Extracting by manifest.
+198 silly tarball no local data for @typescript-eslint/scope-manager@https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-8.51.0.tgz. Extracting by manifest.
+199 silly tarball no local data for @typescript-eslint/parser@https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.51.0.tgz. Extracting by manifest.
+200 silly tarball no local data for zod@https://registry.npmjs.org/zod/-/zod-4.3.4.tgz. Extracting by manifest.
+201 silly tarball no local data for ts-api-utils@https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.3.0.tgz. Extracting by manifest.
+202 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+203 silly tarball no local data for @typescript-eslint/tsconfig-utils@https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.51.0.tgz. Extracting by manifest.
+204 silly tarball no local data for json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz. Extracting by manifest.
+205 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz. Extracting by manifest.
+206 silly tarball no local data for globals@https://registry.npmjs.org/globals/-/globals-14.0.0.tgz. Extracting by manifest.
+207 silly tarball no local data for caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001762.tgz. Extracting by manifest.
+208 silly tarball no local data for baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.11.tgz. Extracting by manifest.
+209 silly tarball no local data for axe-core@https://registry.npmjs.org/axe-core/-/axe-core-4.11.0.tgz. Extracting by manifest.
+210 silly tarball no local data for fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz. Extracting by manifest.
+211 silly tarball no local data for json5@https://registry.npmjs.org/json5/-/json5-1.0.2.tgz. Extracting by manifest.
+212 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz. Extracting by manifest.
+213 silly tarball no local data for globals@https://registry.npmjs.org/globals/-/globals-16.4.0.tgz. Extracting by manifest.
+214 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz. Extracting by manifest.
+215 silly tarball no local data for typescript-eslint@https://registry.npmjs.org/typescript-eslint/-/typescript-eslint-8.51.0.tgz. Extracting by manifest.
+216 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.7.3.tgz. Extracting by manifest.
+217 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+218 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 58ms
+219 silly audit report {}
+220 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/types/-/types-8.51.0.tgz 125ms (cache miss)
+221 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.51.0.tgz 130ms (cache miss)
+222 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.51.0.tgz 136ms (cache miss)
+223 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.51.0.tgz 150ms (cache miss)
+224 http fetch GET 200 https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.3.0.tgz 165ms (cache miss)
+225 http fetch GET 200 https://registry.npmjs.org/globals/-/globals-14.0.0.tgz 206ms (cache miss)
+226 http fetch GET 200 https://registry.npmjs.org/json5/-/json5-1.0.2.tgz 208ms (cache miss)
+227 http fetch GET 200 https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 209ms (cache miss)
+228 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.51.0.tgz 212ms (cache miss)
+229 http fetch GET 200 https://registry.npmjs.org/typescript-eslint/-/typescript-eslint-8.51.0.tgz 222ms (cache miss)
+230 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 226ms (cache miss)
+231 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-8.51.0.tgz 236ms (cache miss)
+232 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 230ms (cache miss)
+233 http fetch GET 200 https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.7.1.tgz 255ms (cache miss)
+234 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz 255ms (cache miss)
+235 http fetch GET 200 https://registry.npmjs.org/globals/-/globals-16.4.0.tgz 256ms (cache miss)
+236 http fetch GET 200 https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.1.0.tgz 266ms (cache miss)
+237 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.11.tgz 277ms (cache miss)
+238 http fetch GET 200 https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 284ms (cache miss)
+239 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 305ms (cache miss)
+240 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz 310ms (cache miss)
+241 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.7.3.tgz 304ms (cache miss)
+242 http fetch GET 200 https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.1.tgz 354ms (cache miss)
+243 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.51.0.tgz 363ms (cache miss)
+244 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.51.0.tgz 385ms (cache miss)
+245 http fetch GET 200 https://registry.npmjs.org/@emnapi/core/-/core-1.7.1.tgz 395ms (cache miss)
+246 http fetch GET 200 https://registry.npmjs.org/axe-core/-/axe-core-4.11.0.tgz 475ms (cache miss)
+247 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-8.51.0.tgz 534ms (cache miss)
+248 http fetch GET 200 https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.12.tgz 708ms (cache miss)
+249 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.51.0.tgz 736ms (cache miss)
+250 http fetch GET 200 https://registry.npmjs.org/zod/-/zod-4.3.4.tgz 862ms (cache miss)
+251 http fetch GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001762.tgz 914ms (cache miss)
+252 silly ADD
+253 silly ADD
+254 silly ADD
+255 silly ADD
+256 silly ADD
+257 silly ADD
+258 silly ADD
+259 silly ADD
+260 silly ADD
+261 silly ADD
+262 silly ADD
+263 silly ADD
+264 silly ADD
+265 silly ADD
+266 silly ADD
+267 silly ADD
+268 silly ADD
+269 silly ADD
+270 silly ADD
+271 silly ADD
+272 silly ADD
+273 silly ADD
+274 silly ADD
+275 silly ADD
+276 silly ADD
+277 silly ADD
+278 silly ADD
+279 silly ADD
+280 silly ADD node_modules/@tybys/wasm-util
+281 silly ADD
+282 silly ADD
+283 silly ADD
+284 silly ADD
+285 silly ADD
+286 silly ADD
+287 silly ADD
+288 silly ADD
+289 silly ADD
+290 silly ADD
+291 silly ADD
+292 silly ADD
+293 silly ADD
+294 silly ADD
+295 silly ADD
+296 silly ADD
+297 silly ADD
+298 silly ADD
+299 silly ADD node_modules/@napi-rs/wasm-runtime
+300 silly ADD
+301 silly ADD
+302 silly ADD
+303 silly ADD
+304 silly ADD
+305 silly ADD
+306 silly ADD
+307 silly ADD
+308 silly ADD
+309 silly ADD
+310 silly ADD
+311 silly ADD
+312 silly ADD
+313 silly ADD
+314 silly ADD
+315 silly ADD
+316 silly ADD
+317 silly ADD
+318 silly ADD
+319 silly ADD
+320 silly ADD
+321 silly ADD
+322 silly ADD node_modules/@emnapi/wasi-threads
+323 silly ADD node_modules/@emnapi/runtime
+324 silly ADD node_modules/@emnapi/core
+325 silly CHANGE node_modules/@typescript-eslint/types
+326 silly CHANGE node_modules/@typescript-eslint/visitor-keys
+327 silly CHANGE node_modules/@typescript-eslint/project-service
+328 silly CHANGE node_modules/@typescript-eslint/eslint-plugin
+329 silly CHANGE node_modules/@typescript-eslint/typescript-estree
+330 silly CHANGE node_modules/@typescript-eslint/typescript-estree/node_modules/semver
+331 silly CHANGE node_modules/@typescript-eslint/type-utils
+332 silly CHANGE node_modules/@typescript-eslint/utils
+333 silly CHANGE node_modules/@typescript-eslint/tsconfig-utils
+334 silly CHANGE node_modules/@typescript-eslint/parser
+335 silly CHANGE node_modules/@typescript-eslint/scope-manager
+336 silly REMOVE node_modules/@tailwindcss/postcss/node_modules/postcss
+337 silly REMOVE node_modules/@eslint/eslintrc/node_modules/globals
+338 silly REMOVE node_modules/@babel/core/node_modules/json5
+339 silly CHANGE node_modules/zod
+340 silly ADD node_modules/tsconfig-paths/node_modules/json5
+341 silly CHANGE node_modules/ts-api-utils
+342 silly CHANGE node_modules/typescript-eslint
+343 silly ADD node_modules/tinyglobby/node_modules/picomatch
+344 silly ADD node_modules/tinyglobby/node_modules/fdir
+345 silly CHANGE node_modules/semver
+346 silly CHANGE node_modules/picomatch
+347 silly CHANGE node_modules/postcss
+348 silly ADD node_modules/next/node_modules/postcss
+349 silly REMOVE node_modules/micromatch/node_modules/picomatch
+350 silly CHANGE node_modules/json5
+351 silly CHANGE node_modules/globals
+352 silly REMOVE node_modules/fdir
+353 silly ADD node_modules/eslint-config-next/node_modules/globals
+354 silly CHANGE node_modules/caniuse-lite
+355 silly CHANGE node_modules/baseline-browser-mapping
+356 silly CHANGE node_modules/axe-core
+357 verbose cwd /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton
+358 verbose os Darwin 25.1.0
+359 verbose node v20.19.2
+360 verbose npm  v10.8.2
+361 verbose exit 0
+362 info ok

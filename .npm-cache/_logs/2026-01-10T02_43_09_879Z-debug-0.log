@@ -1,0 +1,12 @@
+0 verbose cli /Users/lukeedwards/.nvm/versions/node/v20.19.2/bin/node /Users/lukeedwards/.nvm/versions/node/v20.19.2/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.2
+3 silly config load:file:/Users/lukeedwards/.nvm/versions/node/v20.19.2/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/.npmrc
+5 silly config load:file:/Users/lukeedwards/.npmrc
+6 silly config load:file:/Users/lukeedwards/.nvm/versions/node/v20.19.2/etc/npmrc
+7 verbose title npm run dev
+8 verbose argv "run" "dev"
+9 verbose logfile logs-max:10 dir:/Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/.npm-cache/_logs/2026-01-10T02_43_09_879Z-
+10 verbose logfile /Users/lukeedwards/Desktop/PersonalPro/pokefolio/nextjs-applicaiton/.npm-cache/_logs/2026-01-10T02_43_09_879Z-debug-0.log
+11 silly logfile done cleaning log files
