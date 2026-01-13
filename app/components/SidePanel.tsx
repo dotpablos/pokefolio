@@ -93,7 +93,7 @@ export default function SidePanel() {
   };
 
   const handleTopicClick = (cardId: CardID) => {
-    setSidePanelOpen(!sidePanelOpen);
+    setSidePanelOpen(false);
     setSelectedCardId(cardId);
   };
 
