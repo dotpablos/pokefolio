@@ -1,11 +1,14 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, HTMLAttributes } from "react";
 import { selectInfoContent } from "../data/InfoRegistry";
 import { LinkButton } from "./Buttons";
 import { CardID } from "../data/InfoRegistry";
 
-const Divider = () => (
-  <div className="border-[#333333] rounded-lg border-[0.5px]" />
+const Divider = ({ className, ...props }: HTMLAttributes<HTMLDivElement>) => (
+  <div
+    className={`border-[#333333] rounded-lg border-[0.5px] ${className || ""}`}
+    {...props}
+  />
 );
 
 interface ContentCardProps {
@@ -77,7 +80,6 @@ export default function ContentCard({ selectedCardId }: ContentCardProps) {
       return;
     }
 
-    // Simple cache to avoid refetching
     const cacheKey = `images_${imagePathDir}`;
     const cached = sessionStorage.getItem(cacheKey);
 
@@ -85,9 +87,7 @@ export default function ContentCard({ selectedCardId }: ContentCardProps) {
       try {
         setImageFiles(JSON.parse(cached));
         return;
-      } catch (e) {
-        // Invalid cache, fetch fresh
-      }
+      } catch (e) {}
     }
 
     let cancelled = false;
@@ -172,8 +172,8 @@ export default function ContentCard({ selectedCardId }: ContentCardProps) {
               isFadingOut ? "fade-out" : ""
             }`}
           >
-            {subtitle && <p className="subtitle mb-3">{subtitle}</p>}
-            <Divider />
+            {subtitle && <p className="subtitle">{subtitle}</p>}
+            <Divider className="mb-3" />
             <p className="description">{description}</p>
             <p className="description">{description2}</p>
             {workDetails && (
