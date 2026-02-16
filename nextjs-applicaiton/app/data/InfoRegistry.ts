@@ -9,7 +9,7 @@ import {
 import { IdContentMap, PARENT_FOLDERS } from "../types/CardShapes";
 
 const _InfoRegistry = {
-  "about-me": {
+  aboutme: {
     parentFolder: PARENT_FOLDERS.ABOUT_ME,
     title: "Luke Edwards ",
     subtitle: "Here's a little bit about me...",
@@ -60,7 +60,7 @@ const _InfoRegistry = {
       },
     },
   },
-  "dmginc-gg": {
+  dmginc: {
     parentFolder: PARENT_FOLDERS.WORK_EXPERIENCE,
     title: "dmginc.gg",
     subtitle: "Gaming Community & Event Platform",
@@ -89,7 +89,7 @@ const _InfoRegistry = {
     links: [{ name: "Website", icon: Globe, url: "https://dmginc.gg/" }],
     imagePathDir: "dmginc",
   },
-  "nova-maps": {
+  novamaps: {
     parentFolder: PARENT_FOLDERS.WORK_EXPERIENCE,
     title: "Nova Maps",
     subtitle: "Drone mapping software for emergency response teams",
@@ -151,7 +151,7 @@ const _InfoRegistry = {
     ],
     imagePathDir: "krumbz",
   },
-  AlgoVisualizer: {
+  algovisual: {
     parentFolder: PARENT_FOLDERS.PROJECTS,
     title: "Algo//Visual",
     subtitle: "Algorithm Visualization",
@@ -221,7 +221,7 @@ const _InfoRegistry = {
         detail: "Artists",
       },
       detail2: {
-        type: "Pokemon Essentials (some image assets)",
+        type: "Pokemon Essentials (Music & Sound effects assets)",
         detail: "https://essentialsdocs.fandom.com/wiki/About",
       },
     },

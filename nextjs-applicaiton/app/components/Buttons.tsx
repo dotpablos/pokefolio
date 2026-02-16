@@ -1,5 +1,27 @@
-import { LucideIcon } from "lucide-react";
+import { ArrowLeft, LucideIcon } from "lucide-react";
 import { useState } from "react";
+
+const backButtonBaseClassName =
+  "p-2 rounded-md bg-black/50 text-white hover:bg-black/70 focus:outline-none focus:ring-2 focus:ring-white/50";
+
+export const BackButton = ({
+  onClick,
+  className = "",
+  ariaLabel = "Back",
+}: {
+  onClick: () => void;
+  className?: string;
+  ariaLabel?: string;
+}) => (
+  <button
+    type="button"
+    onClick={onClick}
+    className={className ? `${backButtonBaseClassName} ${className}` : backButtonBaseClassName}
+    aria-label={ariaLabel}
+  >
+    <ArrowLeft className="w-6 h-6" />
+  </button>
+);
 
 export const LinkButton = ({
   name,

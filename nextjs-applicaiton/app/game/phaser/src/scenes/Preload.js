@@ -22,33 +22,48 @@ export default class Preload extends Phaser.Scene {
 
   /** @returns {void} */
   editorCreate() {
-    // guapen
-    const guapen = this.add.image(505.0120544433594, 360, "guapen");
-    guapen.scaleX = 0.32715486817515643;
-    guapen.scaleY = 0.32715486817515643;
+    const centerX = this.cameras.main.centerX;
+    const centerY = this.cameras.main.centerY;
+    const barWidth = 400;
+    const barHeight = 24;
 
-    // progressBar
-    const progressBar = this.add.rectangle(553, 361, 256, 20);
-    progressBar.setOrigin(0, 0);
+    // progressBarBg - Dark background with border
+    const progressBarBg = this.add.rectangle(
+      centerX,
+      centerY + 20,
+      barWidth,
+      barHeight,
+      0x000000,
+    );
+    progressBarBg.setStrokeStyle(2, 0x333333);
+
+    // progressBar - Filled progress indicator
+    const progressBar = this.add.rectangle(
+      centerX - barWidth / 2,
+      centerY + 20,
+      0,
+      barHeight,
+      0x333333,
+    );
+    progressBar.setOrigin(0, 0.5);
     progressBar.isFilled = true;
-    progressBar.fillColor = 14737632;
 
-    // progressBarBg
-    const progressBarBg = this.add.rectangle(553.0120849609375, 361, 256, 20);
-    progressBarBg.setOrigin(0, 0);
-    progressBarBg.fillColor = 14737632;
-    progressBarBg.isStroked = true;
-
-    // loadingText
-    const loadingText = this.add.text(552.0120849609375, 329, "", {});
-    loadingText.text = "Loading...";
-    loadingText.setStyle({
-      color: "#e0e0e0",
-      fontFamily: "arial",
-      fontSize: "20px",
-    });
+    // loadingText - Centered above progress bar
+    const loadingText = this.add.text(
+      centerX,
+      centerY - 20,
+      "Loading Assets...",
+      {
+        color: "#e0e0e0",
+        fontFamily: "monospace",
+        fontSize: "18px",
+        align: "center",
+      },
+    );
+    loadingText.setOrigin(0.5, 0.5);
 
     this.progressBar = progressBar;
+    this.progressBarBg = progressBarBg;
 
     this.events.emit("scene-awake");
   }
@@ -65,19 +80,20 @@ export default class Preload extends Phaser.Scene {
     this.editorCreate();
 
     this.editorPreload();
+    this.cameras.main.setBackgroundColor("#000000");
 
-    const width = this.progressBar.width;
+    const maxWidth = 400; // Match barWidth from editorCreate
 
     this.load.on("progress", (progress) => {
-      this.progressBar.width = progress * width;
+      this.progressBar.width = progress * maxWidth;
     });
   }
 
   create() {
     console.log(
-      "✅ [Scene Transition] Preload scene created, transitioning to TownScene",
+      "✅ [Scene Transition] Preload scene created, transitioning to IntroScene",
     );
-    this.scene.start("TownScene");
+    this.scene.start("IntroScene");
   }
 
   /* END-USER-CODE */

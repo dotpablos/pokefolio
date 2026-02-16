@@ -73,7 +73,6 @@ export default function ContentCard({ selectedCardId }: ContentCardProps) {
     }
   }, [isTitleComplete]);
 
-  // Memoize image fetching with caching
   useEffect(() => {
     if (!imagePathDir) {
       setImageFiles([]);

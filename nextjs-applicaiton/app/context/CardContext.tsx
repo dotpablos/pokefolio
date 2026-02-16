@@ -25,7 +25,7 @@ export const CardContext = createContext<CardContextType>({
 
 export const CardContextProvider = ({ children }: { children: ReactNode }) => {
   const [sidePanelOpen, setSidePanelOpen] = useState(false);
-  const [selectedCardId, setSelectedCardId] = useState<CardID>("about-me");
+  const [selectedCardId, setSelectedCardId] = useState<CardID>("aboutme");
   const [openFolders, setOpenFolders] = useState<ParentFolder[]>([]);
   const popOpenFolder = (targetFolderId: ParentFolder) =>
     setOpenFolders(openFolders.filter((item) => item !== targetFolderId));

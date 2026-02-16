@@ -3,7 +3,6 @@ import {
   Geist,
   Geist_Mono,
   IBM_Plex_Mono,
-  Press_Start_2P,
 } from "next/font/google";
 import "./globals.css";
 import { CardContextProvider } from "./context/CardContext";
@@ -24,12 +23,6 @@ const ibmPlexMono = IBM_Plex_Mono({
   weight: ["400", "700"],
 });
 
-const pressStart2P = Press_Start_2P({
-  variable: "--font-press-start-2p",
-  subsets: ["latin"],
-  weight: ["400"],
-});
-
 export const metadata: Metadata = {
   title: "Luke Edwards",
   description: "A developer portfolio for Luke Edwards",
@@ -43,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${ibmPlexMono.variable} ${pressStart2P.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${ibmPlexMono.variable} antialiased`}
       >
         <CardContextProvider>{children}</CardContextProvider>
       </body>
