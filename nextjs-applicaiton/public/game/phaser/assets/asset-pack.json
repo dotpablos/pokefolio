@@ -7,7 +7,27 @@
         "type": "image"
       },
       {
-        "url": "/game/phaser/assets/row-1-column-1.png",
+        "url": "/game/phaser/assets/intro.png",
+        "key": "intro",
+        "type": "image"
+      },
+      {
+        "url": "/game/phaser/assets/controls.png",
+        "key": "controls",
+        "type": "image"
+      },
+      {
+        "url": "/game/phaser/assets/titleCard.png",
+        "key": "titleCard",
+        "type": "image"
+      },
+      {
+        "url": "/game/phaser/assets/start.png",
+        "key": "start",
+        "type": "image"
+      },
+      {
+        "url": "/game/phaser/assets/row-1-column-1-extruded.png",
         "frameConfig": {
           "frameWidth": 32,
           "frameHeight": 32,
@@ -26,8 +46,8 @@
           "frameHeight": 32,
           "startFrame": 0,
           "endFrame": -1,
-          "spacing": 0,
-          "margin": 0
+"spacing": 2,
+        "margin": 1
         },
         "type": "spritesheet",
         "key": "row-2-column-1"
@@ -39,8 +59,8 @@
           "frameHeight": 32,
           "startFrame": 0,
           "endFrame": -1,
-          "spacing": 0,
-          "margin": 0
+"spacing": 2,
+        "margin": 1
         },
         "type": "spritesheet",
         "key": "row-3-column-1"
@@ -52,8 +72,8 @@
           "frameHeight": 32,
           "startFrame": 0,
           "endFrame": -1,
-          "spacing": 0,
-          "margin": 0
+"spacing": 2,
+        "margin": 1
         },
         "type": "spritesheet",
         "key": "row-5-column-1"
@@ -65,8 +85,8 @@
           "frameHeight": 32,
           "startFrame": 0,
           "endFrame": -1,
-          "spacing": 0,
-          "margin": 0
+"spacing": 2,
+        "margin": 1
         },
         "type": "spritesheet",
         "key": "row-8-column-1"
@@ -78,8 +98,8 @@
           "frameHeight": 32,
           "startFrame": 0,
           "endFrame": -1,
-          "spacing": 0,
-          "margin": 0
+"spacing": 2,
+        "margin": 1
         },
         "type": "spritesheet",
         "key": "row-10-column-1"
@@ -91,8 +111,8 @@
           "frameHeight": 32,
           "startFrame": 0,
           "endFrame": -1,
-          "spacing": 0,
-          "margin": 0
+"spacing": 2,
+        "margin": 1
         },
         "type": "spritesheet",
         "key": "row-11-column-1"
@@ -104,8 +124,8 @@
           "frameHeight": 32,
           "startFrame": 0,
           "endFrame": -1,
-          "spacing": 0,
-          "margin": 0
+"spacing": 2,
+        "margin": 1
         },
         "type": "spritesheet",
         "key": "row-12-column-1"
@@ -117,8 +137,8 @@
           "frameHeight": 32,
           "startFrame": 0,
           "endFrame": -1,
-          "spacing": 0,
-          "margin": 0
+"spacing": 2,
+        "margin": 1
         },
         "type": "spritesheet",
         "key": "row-13-column-1"
@@ -130,8 +150,8 @@
           "frameHeight": 32,
           "startFrame": 0,
           "endFrame": -1,
-          "spacing": 0,
-          "margin": 0
+"spacing": 2,
+        "margin": 1
         },
         "type": "spritesheet",
         "key": "row-18-column-1"
@@ -143,8 +163,8 @@
           "frameHeight": 32,
           "startFrame": 0,
           "endFrame": -1,
-          "spacing": 0,
-          "margin": 0
+"spacing": 2,
+        "margin": 1
         },
         "type": "spritesheet",
         "key": "row-19-column-1"
@@ -156,8 +176,8 @@
           "frameHeight": 32,
           "startFrame": 0,
           "endFrame": -1,
-          "spacing": 0,
-          "margin": 0
+"spacing": 2,
+        "margin": 1
         },
         "type": "spritesheet",
         "key": "row-20-column-1"
@@ -169,11 +189,57 @@
           "frameHeight": 32,
           "startFrame": 0,
           "endFrame": -1,
+"spacing": 2,
+        "margin": 1
+        },
+        "type": "spritesheet",
+        "key": "row-21-column-1"
+      },
+      {
+        "url": "/game/phaser/assets/collision.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+"spacing": 2,
+        "margin": 1
+        },
+        "type": "spritesheet",
+        "key": "collision"
+      },
+      {
+        "url": "/game/phaser/assets/trainer.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 48,
+          "startFrame": 0,
+          "endFrame": 15,
           "spacing": 0,
           "margin": 0
         },
         "type": "spritesheet",
-        "key": "row-21-column-1"
+        "key": "trainer"
+      },
+      {
+        "url": "/game/phaser/assets/audio/Title.ogg",
+        "key": "titleMusic",
+        "type": "audio"
+      },
+      {
+        "url": "/game/phaser/assets/audio/ARCANINE.ogg",
+        "key": "arcanineSound",
+        "type": "audio"
+      },
+      {
+        "url": "/game/phaser/assets/audio/Natural Park.ogg",
+        "key": "naturalParkMusic",
+        "type": "audio"
+      },
+      {
+        "url": "/game/phaser/assets/audio/ProjectMusic.ogg",
+        "key": "projectMusic",
+        "type": "audio"
       }
     ]
   },

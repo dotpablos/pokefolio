@@ -2,10 +2,34 @@
     "section1": {
         "files": [
             {
+                "url": "assets/collision.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "collision"
+            },
+            {
                 "url": "assets/dino.png",
                 "key": "dino",
                 "type": "image"
             },
+            {
+                "url": "assets/intro.png",
+                "type": "image",
+                "key": "intro"
+            },
+            {
+                "url": "assets/controls.png",
+                "type": "image",
+                "key": "controls"
+            },
+
             {
                 "url": "assets/row-1-column-1.png",
                 "frameConfig": {
@@ -176,9 +200,9 @@
                 "key": "row-8-column-1"
             },
             {
-                "url": "assets/Screenshot 2026-01-19 at 2.52.34 PM.png",
+                "url": "assets/start.png",
                 "type": "image",
-                "key": "Screenshot 2026-01-19 at 2.52.34 PM"
+                "key": "start"
             },
             {
                 "url": "assets/tilesettest.png",
@@ -205,6 +229,11 @@
                 },
                 "type": "spritesheet",
                 "key": "tileset_1"
+            },
+            {
+                "url": "assets/titleCard.png",
+                "type": "image",
+                "key": "titleCard"
             }
         ]
     },
