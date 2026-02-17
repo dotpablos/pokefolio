@@ -217,12 +217,12 @@ const _InfoRegistry = {
       "Disclaimer: This website is a fan-made project and is not affiliated with, endorsed by, or associated with Nintendo, Game Freak, The Pokémon Company, or any of their subsidiaries or affiliates. Pokémon, along with all related characters, names, and distinctive likenesses thereof, are trademarks and copyrights of Nintendo, Game Freak, and The Pokémon Company. All rights reserved. This project is created purely for educational, entertainment, and non-commercial purposes. No copyright infringement is intended.",
     workDetails: {
       detail1: {
-        type: "Sprite and map assets (as seen in game)",
-        detail: "Artists",
+        type: "Tileset assets (as seen in game)",
+        detail: "UltimoSpriter (https://www.deviantart.com/ultimospriter)",
       },
       detail2: {
-        type: "Pokemon Essentials (Music & Sound effects assets)",
-        detail: "https://essentialsdocs.fandom.com/wiki/About",
+        type: "Pokemon Essentials (Intro & Town music assets)",
+        detail: "https://essentialsengine.miraheze.org/wiki/Essentials_Engine_wiki",
       },
     },
     imagePathDir: "credits",
