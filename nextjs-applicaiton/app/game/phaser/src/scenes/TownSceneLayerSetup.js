@@ -47,25 +47,19 @@ export function applyLayerDepthsAndCollision(scene) {
  */
 function checkProjectTileAndLaunch(scene) {
   if (!scene.player || scene.tileSize == null) {
-    console.log("[project_tiles] checkProjectTileAndLaunch skip: no player or tileSize");
     return;
   }
   if (!scene.editabletilemap) {
-    console.log("[project_tiles] checkProjectTileAndLaunch skip: no editabletilemap");
     return;
   }
 
   const tileX = Math.floor(scene.player.x / scene.tileSize);
   const tileY = Math.floor(scene.player.y / scene.tileSize);
-  console.log("[project_tiles] player pos:", scene.player.x, scene.player.y, "-> tile:", tileX, tileY);
 
   const tilemap = scene.editabletilemap;
   for (const name of PROJECT_TILE_LAYER_NAMES) {
     const tile = tilemap.getTileAt(tileX, tileY, false, name);
-    const hit = tile && tile.index !== -1;
-    if (hit) console.log("[project_tiles] hit layer:", name, "tile index:", tile.index);
     if (tile && tile.index !== -1) {
-      console.log("[project_tiles] launching ProjectScene");
       const cam = scene.cameras.main;
       cam.fadeOut(400, 0, 0, 0);
       cam.once("camerafadeoutcomplete", () => {
@@ -79,7 +73,6 @@ function checkProjectTileAndLaunch(scene) {
       return;
     }
   }
-  console.log("[project_tiles] no project tile at", tileX, tileY);
 }
 
 /**

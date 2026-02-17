@@ -10,14 +10,10 @@ import {
 
 class Boot extends Phaser.Scene {
   preload() {
-    console.log("🔄 [Scene Transition] Entering Boot scene");
     this.load.pack("pack", "/game/phaser/assets/preload-asset-pack.json");
   }
 
   create() {
-    console.log(
-      "✅ [Scene Transition] Boot scene created, transitioning to Preload",
-    );
     this.scene.start("Preload");
   }
 }
@@ -51,7 +47,6 @@ export function createGame(container) {
     return hasCollisionImpl(this, x, y);
   };
 
-  console.log("🎮 [Game] Phaser game initialized, starting Boot scene");
   game.scene.add("Boot", Boot, true);
   game.scene.add("Preload", Preload);
   game.scene.add("IntroScene", IntroScene);

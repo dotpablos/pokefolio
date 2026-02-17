@@ -76,7 +76,6 @@ export default class Preload extends Phaser.Scene {
   // Write your code here
 
   preload() {
-    console.log("🔄 [Scene Transition] Entering Preload scene");
     this.editorCreate();
 
     this.editorPreload();
@@ -90,9 +89,6 @@ export default class Preload extends Phaser.Scene {
   }
 
   create() {
-    console.log(
-      "✅ [Scene Transition] Preload scene created, transitioning to IntroScene",
-    );
     this.scene.start("IntroScene");
   }
 

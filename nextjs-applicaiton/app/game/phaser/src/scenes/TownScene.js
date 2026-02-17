@@ -400,7 +400,6 @@ export default class TownScene extends Phaser.Scene {
   // Write your code here
 
   create(data) {
-    console.log("🔄 [Scene Transition] Entering TownScene");
     this.editorCreate();
 
     // Play Natural Park background music
