@@ -14,10 +14,17 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-[#e0e3dc] font-serif py-12 px-4">
-      {/* Header */}
-      <h1 className="text-4xl md:text-5xl font-serif text-black mb-8">
-        Luke Edwards
-      </h1>
+      <div className="flex flex-col items-center justify-center mb-4">
+        <h1 className="text-4xl md:text-5xl font-serif text-black">
+          Luke Edwards
+        </h1>
+        <h2 className="text-xl font-serif text-gray-500">
+          Software developer
+        </h2>
+        <h3 className="text-sm font-serif text-gray-500">
+          Based in Calgary, Alberta, Canada
+        </h3>
+      </div>
 
       <div className="mb-8">
         <img
@@ -27,13 +34,12 @@ export default function Home() {
         />
       </div>
 
-      {/* Navigation Links */}
-      <div className="flex gap-6 text-black font-serif text-lg mb-8">
+      <div className="flex flex-col gap-2 text-black font-serif text-lg mb-8">
         <button
           onClick={() => router.push("/boring")}
           className="hover:underline cursor-pointer"
         >
-          {"<Portfolio>"}
+          {"Portfolio"}
         </button>
         <button
           onClick={() => {
@@ -42,13 +48,13 @@ export default function Home() {
           }}
           className="hover:underline cursor-pointer"
         >
-          {"<Play my portfolio game>"}
+          {"Play my portfolio game"}
         </button>
         <button
           onClick={() => router.push("/credits")}
           className="hover:underline cursor-pointer"
         >
-          {"<Credits>"}
+          {"Credits"}
         </button>
       </div>
     </div>
