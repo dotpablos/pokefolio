@@ -26,7 +26,7 @@ const _InfoRegistry = {
       {
         name: "GitHub",
         icon: GithubIcon,
-        url: "https://github.com/LukeDoesJava",
+        url: "https://github.com/dotpablos",
       },
       {
         name: "Email",
@@ -176,7 +176,7 @@ const _InfoRegistry = {
       {
         name: "Repository",
         icon: GithubIcon,
-        url: "https://github.com/LukeDoesJava/algoVisualizer",
+        url: "https://github.com/dotpablos/algoVisualizer",
       },
     ],
     imagePathDir: "algovisual",
@@ -204,7 +204,7 @@ const _InfoRegistry = {
       {
         name: "Repository",
         icon: GithubIcon,
-        url: "https://github.com/LukeDoesJava/pokefolio",
+        url: "https://github.com/dotpablos/pokefolio",
       },
     ],
   },
